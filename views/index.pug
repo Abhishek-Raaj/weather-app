@@ -1,0 +1,12 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title  #{title}
+  link(rel='stylesheet' href='../static/style.css')
+h1#head KNOW YOUR WEATHER REPORT
+form.form(action='/city' method='POST')
+  div
+    label#label Enter the name of your city:
+    input(type='text' name='city' value='mumbai' required='required')
+    button(type='submit') ok

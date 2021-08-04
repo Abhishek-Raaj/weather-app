@@ -1,0 +1,16 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Your weather report
+  link(rel='stylesheet' href='../static/style2.css')
+div.container
+  h1 #{mausum} in #{city}
+  div
+    label Temperature:#{temperature}
+  div
+    label Minimum-Temperature:#{min_tem}
+  div
+    label Maximum-Temperature:#{max_tem}
+  div
+    label Humidity:#{humidity}

@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body h1{
+    text-align: center;
+    background-color: grey;
+    height: 10vh;
+    padding-top: 17px;
+}
+
+.form div {
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 87px;
+    padding-top: 10px;
+    background:url("https://cdn.pixabay.com/photo/2012/06/08/06/19/clouds-49520__340.jpg");
+    background-size: cover;
+    font-weight: bold;
+    font-size: 30px;
+    height: 90vh;
+    width: 100%;
+    align-items: center;
+}
+.form div input{
+    width: 25%;
+    padding: 8px;
+    font-size: 24px;
+    border-radius: 20px;
+    margin-left: 6px;
+    border: 2px solid grey;
+    background: none;
+}
+.form div input:hover{
+    background-color: rgb(190, 186, 186);
+    border: none;
+}
+.form button {
+    padding: 10px;
+    font-size: 20px;
+    width: 17%;
+    border-radius: 20px;
+    border: 2px solid grey;
+    background: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.form button:hover{
+   background-color: black;
+   color: white;
+   border: none;
+}
